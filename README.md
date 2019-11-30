@@ -1,2 +1,7 @@
 # CNassign3
-CN Assignment #
+CN Assignment 3
+Question A06
+
+TEAM :
+GANESH GB - 1KS17CS024
+NITISH KUMAR GUPTA - 1KS17CS049
