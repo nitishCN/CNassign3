@@ -1,0 +1,17 @@
+ping.py - this file conatins a ping program which pings fors 60sec.
+
+Iptable command on device B:
+
+$ sudo iptables -A OUTPUT -d 192.168.2.2 -p icmp --icmp-type echo-request -j DROP
+
+Ping requesting using python program , this is runned in device B (192.168.2.6)
+
+$ python ping.py
+
+From Output We observe that to IP 192.168.2.2 the ping request is not possible.
+
+$ ping google.com
+
+but ping is working for different ip for example google.com.
+
+Respective wireshark capture is submited
